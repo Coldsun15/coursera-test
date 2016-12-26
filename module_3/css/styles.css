@@ -1,0 +1,161 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #28abd7;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #146b55;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Helvetica', serif;
+  color: #0000ff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+}
+#nav-list a {
+  color: #de7654;
+  text-align: center;
+  background-color: #80d728;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+
+/*HOME PAGE */
+#Title{
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+#main-content {
+  background-color: #7ecde7;
+  color: #000000;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+ #text{
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 1000px;
+  } 
+
+#Chicken {
+  font-size: 1.5em;
+  color: #c22424;
+}
+/* END HOME PAGE */
+
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+  font-family: 'Helvetica', serif;
+  color: #0000ff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  /* End Header */
+
+  /*Main*/
+  #tall-section{
+    padding-right: 20px;
+    padding-left: 20px;
+    }
+
+  #main-content{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+  } 
+
+  #text{
+    padding-right: 20px;
+    padding-left: 20px;
+  } 
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+  font-family: 'Helvetica', serif;
+  color: #0000ff;
+  font-size: 1.5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  }
+  /* End Header */
+
+  /*Main*/
+
+  #tall-section{
+    padding-right: 20px;
+    padding-left: 20px;
+
+  }
+
+  #main-content{
+    padding-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+  } 
+
+
